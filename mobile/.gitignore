@@ -1,28 +1,9 @@
-*.txt
-.sass-cache
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-.package-lock.json
-
-# testing
-/coverage
-
-# production
-/build
-
-# misc
+# OSX
+#
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
+# Xcode
+#
 build/
 *.pbxuser
 !default.pbxuser
@@ -41,6 +22,8 @@ DerivedData
 *.xcuserstate
 ios/.xcode.env.local
 
+# Android/IntelliJ
+#
 build/
 .idea
 .gradle
@@ -49,17 +32,33 @@ local.properties
 *.hprof
 .cxx/
 
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
 buck-out/
 \.buckd/
 *.keystore
 !debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
 
 **/fastlane/report.xml
 **/fastlane/Preview.html
 **/fastlane/screenshots
 **/fastlane/test_output
 
+# Bundle artifact
 *.jsbundle
 
+# Ruby / CocoaPods
 /ios/Pods/
 /vendor/bundle/
